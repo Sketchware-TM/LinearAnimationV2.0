@@ -31,13 +31,11 @@ Fitur tambahan:
    - `classes.dex`
    - `classes.jar`
 
-4. Paste ke:
-   `/storage/emulated/0/.sketchware/libs/local_libs/` (kalo folder *local_libs* blm ada buat aja)
+4. Buat folder dulu:
+   `/storage/emulated/0/.sketchware/libs/local_libs/LinearAnimationV2.0` (kalo folder *local_libs* blm ada buat aja)
 
-6. Buat folder:
+6. Paste ke folder:
    `LinearAnimationV2.0`
-
-7. Paste kedua file ke dalam folder tersebut
 
 ---
 
