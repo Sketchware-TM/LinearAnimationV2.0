@@ -1,0 +1,307 @@
+[
+  {
+    "code": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_Header",
+    "typeName": "",
+    "palette": "449",
+    "type": "h",
+    "spec": "Linear Animation - by SkTeamProject"
+  },
+  {
+    "code": "import androidX.SkTeamProject.AnimatedParticleView;",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_Import",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "import SkTeamProject Library (not use)"
+  },
+  {
+    "code": "AnimatedParticleView particleView \u003d new AnimatedParticleView(%1$s.this);\n%3$s\n\n%2$s.addView(particleView);",
+    "imports": "androidX.SkTeamProject.AnimatedParticleView",
+    "color": "#9C27B0",
+    "name": "SkAnim_Setup",
+    "typeName": "",
+    "palette": "449",
+    "type": "c",
+    "spec": "set linear animation %m.activity to layout %m.view"
+  },
+  {
+    "code": "// https://www.mediafire.com/file/yjtrxpfj6i711u9/Lib+by+SkTeamProject.7z/file",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkTeam_LibraryDownload",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "Download Library Here"
+  },
+  {
+    "code": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_ModeHeader",
+    "typeName": "",
+    "palette": "449",
+    "type": "h",
+    "spec": "Animation Mode"
+  },
+  {
+    "code": "particleView.setAnimationMode(AnimatedParticleView.%1$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_SetMode",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "set animation mode %s"
+  },
+  {
+    "code": "MODE_SWIRL",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_ModeSwirl",
+    "typeName": "String",
+    "palette": "449",
+    "type": "s",
+    "spec": "MODE_SWIRL"
+  },
+  {
+    "code": "MODE_BOUNCE",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_ModeBounce",
+    "typeName": "String",
+    "palette": "449",
+    "type": "s",
+    "spec": "MODE_BOUNCE"
+  },
+  {
+    "code": "MODE_EXPLODE",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_ModeExplode",
+    "typeName": "String",
+    "palette": "449",
+    "type": "s",
+    "spec": "MODE_EXPLODE"
+  },
+  {
+    "code": "MODE_WAVE",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_ModeWave",
+    "typeName": "String",
+    "palette": "449",
+    "type": "s",
+    "spec": "MODE_WAVE"
+  },
+  {
+    "code": "MODE_MATRIX",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_ModeMatrix",
+    "typeName": "String",
+    "palette": "449",
+    "type": "s",
+    "spec": "MODE_MATRIX"
+  },
+  {
+    "code": "MODE_SNOW",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_ModeSnow",
+    "typeName": "String",
+    "palette": "449",
+    "type": "s",
+    "spec": "MODE_SNOW"
+  },
+  {
+    "code": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_GeneralHeader",
+    "typeName": "",
+    "palette": "449",
+    "type": "h",
+    "spec": "General Settings"
+  },
+  {
+    "code": "particleView.setBackgroundColor(%1$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_BgColor",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "background color %m.color"
+  },
+  {
+    "code": "particleView.setParticleColor(%1$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_ParticleColor",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "particle color %m.color"
+  },
+  {
+    "code": "particleView.setLineColor(%1$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_LineColor",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "line color %m.color"
+  },
+  {
+    "code": "particleView.setParticleCount(%1$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_ParticleCount",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "particle count %d"
+  },
+  {
+    "code": "particleView.setParticleRadiusRange(%1$s.0f, %2$s.0f);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_Radius",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "particle radius min %d max %d"
+  },
+  {
+    "code": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_MatrixHeader",
+    "typeName": "",
+    "palette": "449",
+    "type": "h",
+    "spec": "Matrix Mode Settings"
+  },
+  {
+    "code": "particleView.setMatrixColor(%1$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_MatrixColor",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "matrix trail color %m.color"
+  },
+  {
+    "code": "particleView.setMatrixHeadColor(%1$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_MatrixHeadColor",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "matrix head color %m.color"
+  },
+  {
+    "code": "particleView.setMatrixFontSize(%1$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_MatrixFontSize",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "matrix font size %d"
+  },
+  {
+    "code": "particleView.setMatrixSpeed(%1$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_MatrixSpeed",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "matrix speed %d"
+  },
+  {
+    "code": "particleView.setMatrixTrailLength(%1$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_MatrixTrailLength",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "matrix trail length %d"
+  },
+  {
+    "code": "particleView.setMatrixCount(%1$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_MatrixCount",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "matrix column count %d"
+  },
+  {
+    "code": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_SnowHeader",
+    "typeName": "",
+    "palette": "449",
+    "type": "h",
+    "spec": "Snow Mode Settings"
+  },
+  {
+    "code": "particleView.setSnowColor(%1$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_SnowColor",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "snow color %m.color"
+  },
+  {
+    "code": "particleView.setSnowCount(%1$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_SnowCount",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "snow count %d"
+  },
+  {
+    "code": "particleView.setSnowSpeed(%1$s, %2$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_SnowSpeed",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "snow speed min %d max %d"
+  },
+  {
+    "code": "particleView.setSnowRadius(%1$s, %2$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_SnowRadius",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "snow radius min %d max %d"
+  },
+  {
+    "code": "particleView.setSnowWindSpeed(%1$s);",
+    "imports": "",
+    "color": "#9C27B0",
+    "name": "SkAnim_SnowWindSpeed",
+    "typeName": "",
+    "palette": "449",
+    "type": " ",
+    "spec": "snow wind speed %d"
+  }
+]
