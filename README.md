@@ -47,6 +47,14 @@ Fitur tambahan:
 
 ## ⚠️ Catatan
 - Beberapa efek (seperti MATRIX & SNOW) bisa cukup berat di device low-end
+- Beberapa mode kayak `MODE_BOUNCE`, `MODE_SWIRL`, `MODE_EXPLODE`, dan `MODE_WAVE` itu *sama* bedanya cuma gayanya aja
 
 ---
-© By SkTeamProject
+# Preview
+**Preview 3 mode `MODE_BOUNCE`, `MODE_MATRIX`, dan `MODE_SNOW`**
+## MODE_BOUNCE
+![Preview1](.preview/anim1.jpg)
+## MODE_MATRIX
+![Preview2](.preview/anim2.jpg)
+## MODE_SNOW
+![Preview3](.preview/anim3.jpg)
