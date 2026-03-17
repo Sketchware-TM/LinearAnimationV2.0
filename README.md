@@ -17,7 +17,6 @@ Library ini menyediakan beberapa mode animasi:
 
 Fitur tambahan:
 - Support karakter unik (huruf Jepang, simbol, dll) untuk efek Matrix
-- Ringan, tapi penggunaan efek tertentu bisa meningkatkan beban CPU
 
 ---
 
@@ -25,16 +24,16 @@ Fitur tambahan:
 1. Clone repo ini:
    https://github.com/Sketchware-TM/LinearAnimationV2.0
 
-2. Masuk ke folder hasil clone
+2. Buat folder dulu:
+   `/storage/emulated/0/.sketchware/libs/local_libs/LinearAnimationV2.0` (kalo folder *local_libs* blm ada buat aja)
 
-3. Copy file:
+3. Masuk folder hasil clone
+
+4. Copy file:
    - `classes.dex`
    - `classes.jar`
 
-4. Buat folder dulu:
-   `/storage/emulated/0/.sketchware/libs/local_libs/LinearAnimationV2.0` (kalo folder *local_libs* blm ada buat aja)
-
-6. Paste ke folder:
+5. Paste ke folder:
    `LinearAnimationV2.0`
 
 ---
@@ -45,7 +44,8 @@ Fitur tambahan:
 
 ## ⚠️ Catatan
 - Beberapa efek (seperti MATRIX & SNOW) bisa cukup berat di device low-end
-- Beberapa mode kayak `MODE_BOUNCE`, `MODE_SWIRL`, `MODE_EXPLODE`, dan `MODE_WAVE` itu *sama* bedanya cuma gayanya aja
+- Beberapa mode seperti `MODE_BOUNCE`, `MODE_SWIRL`, `MODE_EXPLODE`, dan `MODE_WAVE` Memiliki mekanisme dasar yang sama, namun dengan variasi efek visual yang berbeda
+- Ringan, tapi tergantung jumlah partikel yang digunakan
 
 ---
 # Preview
